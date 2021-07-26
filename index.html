@@ -21,7 +21,6 @@
 
 
     <style>
-
         .zoom.rd-zoom {
             color: white
         }
@@ -170,18 +169,32 @@
             opacity: 10%;
         }
 
-        .round:before,.rounded-circle{
+        .round:before,
+        .rounded-circle {
             border-radius: inherit;
-            background-color:#ffffff1a;
+            background-color: #ffffff1a;
         }
-        .bg{
+
+        .bg {
             background-color: black;
         }
-        .bg *{
-            color: #fff!important;
+
+        .bg * {
+            color: #fff !important;
         }
-        .highlight{
+
+        .highlight {
             background-color: chartreuse;
+        }
+
+        .zoomA {
+            width: 600px;
+            height: auto;
+            transition: transform ease-in-out 0.3s;
+        }
+
+        .zoomA:hover {
+            transform: scale(1.2);
         }
     </style>
 
@@ -404,7 +417,8 @@
                                 </div>
 
                                 <div class="col-sm-12 my-2 clsHeading">
-                                    <div class="progress-heading mt-2">JQuery/JQueryUI <span class="pull-right">40%</span>
+                                    <div class="progress-heading mt-2">JQuery/JQueryUI <span
+                                            class="pull-right">40%</span>
                                     </div>
                                     <div class="progress mt-3" style="height: 3px;">
                                         <div class="progress-bar blue-bar" role="progressbar" style="width: 50%; "
@@ -422,7 +436,8 @@
                                 </div>
 
                                 <div class="col-sm-12 my-2 clsHeading">
-                                    <div class="progress-heading mt-2">Angular 10 <span class="pull-right">50%</span></div>
+                                    <div class="progress-heading mt-2">Angular 10 <span class="pull-right">50%</span>
+                                    </div>
                                     <div class="progress mt-3" style="height: 3px;">
                                         <div class="progress-bar blue-bar" role="progressbar" style="width: 70%;"
                                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
@@ -430,7 +445,8 @@
                                 </div>
 
                                 <div class="col-sm-12 my-2 clsHeading">
-                                    <div class="progress-heading mt-2">Bootstrap 4,FlexBox<span class="pull-right">70%</span>
+                                    <div class="progress-heading mt-2">Bootstrap 4,FlexBox<span
+                                            class="pull-right">70%</span>
                                     </div>
                                     <div class="progress mt-3" style="height: 3px;">
                                         <div class="progress-bar blue-bar" role="progressbar" style="width: 70%; "
@@ -446,7 +462,7 @@
                                             aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-sm-12 my-2 clsHeading">
                                     <div class="progress-heading mt-2">Python <span class="pull-right">30%</span>
                                     </div>
@@ -466,7 +482,8 @@
                                 </div>
 
                                 <div class="col-sm-12 my-2 clsHeading">
-                                    <div class="progress-heading mt-2">Adobe Photoshop <span class="pull-right">50%</span>
+                                    <div class="progress-heading mt-2">Adobe Photoshop <span
+                                            class="pull-right">50%</span>
                                     </div>
                                     <div class="progress mt-3" style="height: 3px;">
                                         <div class="progress-bar blue-bar" role="progressbar" style="width: 50%; "
@@ -503,13 +520,13 @@
                             </div>
                             <div class="row my-3">
                                 <div class="col-6">
-                                    <a target="_blank" href="https://everchron.com/">
-                                        <img src="img/work2.png" alt="work1" class="img-fluid">
+                                    <a>
+                                        <img src="img/Design-1.png" alt="work1" class="zoomA img-fluid">
                                     </a>
                                 </div>
                                 <div class="col-6">
-                                    <a target="_blank" href="https://www.michaeldhaines.com/">
-                                        <img src="img/work1.png" alt="work2" class="img-fluid">
+                                    <a>
+                                        <img src="img/Design-2.png" alt="work2" class="zoomA img-fluid">
                                     </a>
                                 </div>
                             </div>
